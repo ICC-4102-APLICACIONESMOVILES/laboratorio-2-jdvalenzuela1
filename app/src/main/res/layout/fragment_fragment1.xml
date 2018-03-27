@@ -16,8 +16,8 @@
             android:hint="Nombre"/>
         <DatePicker
             android:id="@+id/fecha"
-            android:layout_width="200sp"
-            android:layout_height="200sp"
+            android:layout_width="350sp"
+            android:layout_height="300sp"
             android:hint="Fecha"/>
         <EditText
             android:id="@+id/categoria"

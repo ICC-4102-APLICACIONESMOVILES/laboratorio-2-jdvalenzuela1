@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+
 public class Fragment1 extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
@@ -32,7 +33,7 @@ public class Fragment1 extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
 
-        aceptar = (Button) findViewById(R.id.aceptar);
+        aceptar = (Button) getActivity().findViewById(R.id.aceptar);
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);

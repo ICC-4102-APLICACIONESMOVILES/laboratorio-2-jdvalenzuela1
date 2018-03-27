@@ -6,4 +6,15 @@
     android:background="@android:color/holo_orange_dark">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/forms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
 </FrameLayout>
